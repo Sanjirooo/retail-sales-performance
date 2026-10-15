@@ -1,0 +1,209 @@
+{
+  "as_of": "2025-12-31",
+  "orders": 12000,
+  "customers": 1120,
+  "revenue": 8116548300.0,
+  "cost": 5569957000.0,
+  "profit": 2546591300.0,
+  "margin": 0.313752990295148,
+  "avg_order_value": 676379.025,
+  "h2_vs_h1_growth": -0.24112547276582175,
+  "months": [
+    {
+      "month": "Jan",
+      "revenue": 865704100.0,
+      "profit": 276055900.0,
+      "orders": 1653
+    },
+    {
+      "month": "Feb",
+      "revenue": 809702750.0,
+      "profit": 256036950.0,
+      "orders": 1433
+    },
+    {
+      "month": "Mar",
+      "revenue": 855442250.0,
+      "profit": 262532550.0,
+      "orders": 1432
+    },
+    {
+      "month": "Apr",
+      "revenue": 750396950.0,
+      "profit": 230974050.0,
+      "orders": 1156
+    },
+    {
+      "month": "May",
+      "revenue": 730987200.0,
+      "profit": 231768800.0,
+      "orders": 1099
+    },
+    {
+      "month": "Jun",
+      "revenue": 602392850.0,
+      "profit": 187731750.0,
+      "orders": 885
+    },
+    {
+      "month": "Jul",
+      "revenue": 571326150.0,
+      "profit": 181630450.0,
+      "orders": 804
+    },
+    {
+      "month": "Aug",
+      "revenue": 582470000.0,
+      "profit": 180260100.0,
+      "orders": 779
+    },
+    {
+      "month": "Sep",
+      "revenue": 500222600.0,
+      "profit": 158086500.0,
+      "orders": 642
+    },
+    {
+      "month": "Oct",
+      "revenue": 565169150.0,
+      "profit": 176636050.0,
+      "orders": 709
+    },
+    {
+      "month": "Nov",
+      "revenue": 637678950.0,
+      "profit": 200716050.0,
+      "orders": 765
+    },
+    {
+      "month": "Dec",
+      "revenue": 645055350.0,
+      "profit": 204162150.0,
+      "orders": 643
+    }
+  ],
+  "categories": [
+    {
+      "name": "Electronics",
+      "revenue": 2637771250.0,
+      "profit": 537518750.0,
+      "orders": 2992,
+      "margin": 0.20377762097452537
+    },
+    {
+      "name": "Home & Kitchen",
+      "revenue": 2550956700.0,
+      "profit": 797996400.0,
+      "orders": 2635,
+      "margin": 0.31282240110151616
+    },
+    {
+      "name": "Fashion",
+      "revenue": 1889107600.0,
+      "profit": 808496200.0,
+      "orders": 2470,
+      "margin": 0.42797784520055926
+    },
+    {
+      "name": "Beauty",
+      "revenue": 686046450.0,
+      "profit": 336379450.0,
+      "orders": 2110,
+      "margin": 0.4903158525198986
+    },
+    {
+      "name": "Grocery",
+      "revenue": 352666300.0,
+      "profit": 66200500.0,
+      "orders": 1793,
+      "margin": 0.1877142783418773
+    }
+  ],
+  "regions": [
+    {
+      "name": "Jakarta",
+      "revenue": 2443155200.0,
+      "profit": 767362600.0,
+      "orders": 3704,
+      "margin": 0.3140867186824644
+    },
+    {
+      "name": "Surabaya",
+      "revenue": 1504457950.0,
+      "profit": 471677150.0,
+      "orders": 2174,
+      "margin": 0.31351966334452885
+    },
+    {
+      "name": "Bandung",
+      "revenue": 1255303750.0,
+      "profit": 391523950.0,
+      "orders": 1877,
+      "margin": 0.31189578617924146
+    },
+    {
+      "name": "Medan",
+      "revenue": 1218981750.0,
+      "profit": 383805550.0,
+      "orders": 1710,
+      "margin": 0.3148575029937897
+    },
+    {
+      "name": "Makassar",
+      "revenue": 881063350.0,
+      "profit": 278506050.0,
+      "orders": 1284,
+      "margin": 0.316102184933694
+    },
+    {
+      "name": "Yogyakarta",
+      "revenue": 771906550.0,
+      "profit": 240827450.0,
+      "orders": 1191,
+      "margin": 0.31199042163847424
+    },
+    {
+      "name": "Unknown",
+      "revenue": 41679750.0,
+      "profit": 12888550.0,
+      "orders": 60,
+      "margin": 0.30922810237585396
+    }
+  ],
+  "discounts": [
+    {
+      "name": "0-5%",
+      "revenue": 5091786550.0,
+      "profit": 1750269150.0,
+      "orders": 7184,
+      "margin": 0.34374362177456164
+    },
+    {
+      "name": "6-10%",
+      "revenue": 1622645100.0,
+      "profit": 467490800.0,
+      "orders": 2496,
+      "margin": 0.2881041578346368
+    },
+    {
+      "name": "11%+",
+      "revenue": 1402116650.0,
+      "profit": 328831350.0,
+      "orders": 2320,
+      "margin": 0.23452495910379498
+    }
+  ],
+  "repeat_rate": 0.8214285714285714,
+  "champion_loyal_revenue_share": 0.520436519794997,
+  "at_risk_customers": 390,
+  "at_risk_historical_revenue": 2247834900.0,
+  "cleaning": {
+    "raw_rows": 12132,
+    "clean_rows": 12000,
+    "duplicates_removed": 120,
+    "invalid_rows_removed": 12,
+    "missing_region_filled": 60,
+    "category_labels_normalized": 160,
+    "region_labels_normalized": 45
+  }
+}
